@@ -1,0 +1,43 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.square{
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    height: 50%;
+    width: 5%;
+    margin: 5px;
+}
+
+.container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.clonecontainer{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.clonecontainer .square{
+    height: 50%;
+    width: 50%;
+}
+
+.clonecontainer .square p {
+    font-size: 1000%;
+    display: flex;
+    justify-content: center;
+}
